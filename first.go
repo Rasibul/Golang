@@ -21,14 +21,25 @@ import "fmt"
 // 	add(a, b)
 //
 
-var  a int = 10
+// var  a int = 10
+
+// func main(){
+// 	age := 20
+// 	if age > 18 {
+// 		a:=47
+// 		fmt.Println(a)
+// 	}
+
+// 	fmt.Println(a)
+// }
+
+// ei function ar name holo standard function  , jey function ar name achey tar name holo standard function
+func add(a init, b init){
+	res := a + b
+	printf(res)
+}
+
 
 func main(){
-	age := 20
-	if age > 18 {
-		a:=47
-		fmt.Println(a)
-	}
-
-	fmt.Println(a)
+	add(a, b)
 }
