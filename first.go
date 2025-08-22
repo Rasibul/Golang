@@ -34,12 +34,19 @@ import "fmt"
 // }
 
 // ei function ar name holo standard function  , jey function ar name achey tar name holo standard function
-func add(a init, b init){
-	res := a + b
-	printf(res)
-}
+// func add(a init, b init){
+// 	res := a + b
+// 	printf(res)
+// }
 
 
 func main(){
-	add(a, b)
+	fmt.Println("Hello World")
+}
+
+
+
+// init function: jey function k call kortey hoi na manully computer automatically call korey dey
+func init(){
+	fmt.Println("I am init function")
 }
